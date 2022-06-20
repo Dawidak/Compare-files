@@ -1,4 +1,4 @@
-// Compare files.
+// Compare files
 #include <iostream>
 #include <fstream>
 #include <string>

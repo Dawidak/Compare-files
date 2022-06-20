@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1655741877 source:d:\programowanie\c++ projects\compare files\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<filesystem>
+
