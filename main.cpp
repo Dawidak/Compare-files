@@ -81,10 +81,10 @@ int main() {
     listfiles();
 
     for(int i = 0; i < 128000; i++){
-        if (fileExists(files[i]) && files[i].find("jpg") != std::string::npos){
+        if (fileExists(files[i]) /* && files[i].find("jpg") != std::string::npos */ ){ //commented code can be used to compare only some files
             //cout << "this is a file" << endl;
             for(int j = 0; j < 128000; j++){
-                if (fileExists(files[j]) && files[i].find("jpg") != std::string::npos){
+                if (fileExists(files[j]) /* && files[i].find("jpg") != std::string::npos */ ){ //commented code can be used to compare only some files
                     if(comparefiles(files[i], files[j]) == 3){
                         cout << files[i] + " is the same as " + files[j] << endl;
                     }
