@@ -6,3 +6,11 @@
 	<vector>
 	<filesystem>
 
+1655992689 source:d:\programowanie\c++ projects\compare files\compare-files\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<filesystem>
+	<windows.h>
+
